@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width:100%;
+    height: 100vh;
+    background-color: rgb(247, 239, 231);
+}
+.w{
+    color: blanchedalmond;
+    background-color: rgba(100, 96, 89, 0.61);
+    padding: 3rem;
+    text-align: center;
+    border-style: groove;
+    border-radius: 0.5rem;
+}
+.prallax {
+    width: 100%;
+    height: 60vh;
+    background-image: url(../images/programming.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.row{
+    margin: 3rem;
+    padding: 1rem;
+}
+
+img {
+    border-radius: 0.5rem;
+    width: 100%;
+}
+.col-7 {
+    text-align: center;
+    padding-top: 1rem;
+}
+.container {
+    text-align: center;
+    margin-top: 1rem;
+}
+.btn {
+    border: 2px solid #4a5f6d;
+    background: none;
+    padding: 0.5rem 3rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.9s;
+    position: relative;
+    overflow: hidden;
+}
+.btn1{
+    color: rgb(230, 230, 236);
+}
+.btn:hover {
+    color: rgb(232, 232, 236);
+    
+} 
+.btn::before {
+    content: "";
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    height: 0;
+    background: #26a8ff;
+    z-index: -1;
+    transition: 0.9s;
+}
+
+.btn1::before {
+    top: 0%;
+    border-radius: 0 0 20% 0 0;
+}
+.btn1:hover::before {
+    height: 180%;
+}
+a {
+    text-decoration: none;
+}

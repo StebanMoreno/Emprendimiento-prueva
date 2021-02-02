@@ -1,0 +1,61 @@
+@font-face {
+    font-family: PottaOne-Regular;
+    src: url(./fonts/Potta_One/PottaOne-Regular.ttf);
+}
+
+body{
+     font-family: PottaOne-Regular;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: black !important;
+    font-family: PottaOne-Regular!important;
+}
+p{ 
+    color: black!important;
+    font-family: PottaOne-Regular;
+}
+
+.reveal {
+    background-image: url(../images/backgrounds/1.jfif);
+}
+
+.use1 li {
+    list-style: none;
+    display: inline-block;
+    font-family: PottaOne-Regular;
+}
+.controls {
+    color: rgb(71, 68, 68)!important;
+}
+ol {
+    text-align: center!important;
+    color: black!important;
+   font-family: PottaOne-Regular;
+}
+
+a {
+    color: rgba(3, 3, 3, 0.87)!important; 
+    font-family: PottaOne-Regular;
+}
+a:hover {
+    color: rgb(54, 52, 52)!important;
+    text-decoration: underline rgb(54, 52, 52)!important;
+}
+table{
+    color: black!important;
+    font-family: PottaOne-Regular;
+} 
+
+.title {
+    padding: 3rem;
+}
+.end {
+    padding: 5rem;
+
+}
+.home{
+    position: relative;
+    left: 25rem!important;
+    top: 1rem;
+}
+
